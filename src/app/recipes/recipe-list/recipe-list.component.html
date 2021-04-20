@@ -3,16 +3,21 @@
     <button class="btn btn-success">New Recipe</button>
   </div>
 </div>
+<hr />
 <div class="row">
   <div class="col-md-12">
-    <a href="#" class="list-group-item clearfix">
+    <a *ngFor="let recipe of recipes"
+       href="#"
+       class="list-group-item clearfix">
       <div class="pull-left">
-        <h4 class="list-group-item-heading">Recipe Name</h4>
-        <p class="list-group-item-text">Description</p>
+        <h4 class="list-group-item-heading">{{recipe.name}}</h4>
+        <p class="list-group-item-text">{{recipe.description}}</p>
       </div>
       <span class="pull-right">
-        <img src="https://ministryofcurry.com/wp-content/uploads/2017/06/IMG_3071-scaled.jpg"
-             alt="Daal Dhokali" class="img-responsive" style="max-height:200px;"/>
+        <img [src]="recipe.imagePath"
+             alt="{{recipe.name}}"
+             class="img-responsive"
+             style="max-height:100px;" />
       </span>
     </a>
     <app-recipe-item></app-recipe-item>
