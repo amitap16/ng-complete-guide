@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-complete-guide';
+  linkNum: number;
+
+  onRecipesEvent(num) {
+    console.log(num);
+    this.linkNum = num;
+  };
+
+  onShoppingListEvent(num) {
+    console.log(num);
+    this.linkNum = num;
+  };
 }

@@ -4,12 +4,10 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\header",
-    "\\src\\app\\recipes\\recipe-detail",
-    "\\src\\app\\recipes\\recipe-list",
-    "\\src\\app\\recipes\\recipe-list\\recipe-item",
     "\\src\\app\\shared",
-    "\\src\\app\\shopping-list"
+    "\\src\\app\\shopping-list",
+    "\\src\\app\\shopping-list\\shopping-edit"
   ],
-  "SelectedNode": "\\src\\app\\shopping-list\\shopping-list.component.html",
+  "SelectedNode": "\\src\\app\\header\\header.component.html",
   "PreviewInSolutionExplorer": false
 }
