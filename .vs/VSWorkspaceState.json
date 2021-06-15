@@ -3,8 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\shopping-list",
-    "\\src\\app\\shopping-list\\shopping-edit"
+    "\\src\\app\\header",
+    "\\src\\app\\recipes",
+    "\\src\\app\\recipes\\recipe-detail",
+    "\\src\\app\\shared",
+    "\\src\\app\\shared\\directives",
+    "\\src\\app\\shared\\directives\\dropdown",
+    "\\src\\app\\shared\\models"
   ],
+  "SelectedNode": "\\src\\app\\shared\\directives\\dropdown\\dropdown.directive.ts",
   "PreviewInSolutionExplorer": false
 }

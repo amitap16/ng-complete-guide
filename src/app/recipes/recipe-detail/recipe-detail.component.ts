@@ -1,5 +1,5 @@
 import { Component, ElementRef, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
-import { Recipe } from '../recipe.model';
+import { Recipe } from '../../shared/models/recipe.model';
 
 @Component({
   selector: 'app-recipe-detail',
