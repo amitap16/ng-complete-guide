@@ -6,11 +6,12 @@
     "\\src\\app\\header",
     "\\src\\app\\recipes",
     "\\src\\app\\recipes\\recipe-detail",
+    "\\src\\app\\recipes\\recipe-list",
+    "\\src\\app\\recipes\\recipe-list\\recipe-item",
     "\\src\\app\\shared",
-    "\\src\\app\\shared\\directives",
-    "\\src\\app\\shared\\directives\\dropdown",
-    "\\src\\app\\shared\\models"
+    "\\src\\app\\shared\\services",
+    "\\src\\app\\shopping-list"
   ],
-  "SelectedNode": "\\src\\app\\shared\\directives\\dropdown\\dropdown.directive.ts",
+  "SelectedNode": "\\src\\app\\shared\\services\\recipe.service.ts",
   "PreviewInSolutionExplorer": false
 }
